@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+
+#header {
+    margin-left: 84%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #e4cfd6,#bfafa9);
+    width:300px;
+    height:500px; 
+   }
+  
+
+#h1 { text-align-right :0px;
+   
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+
+
+
+
+:root{
+   
+  --vermelho:  #ff0000;
+  --laranja:   #ffa500;
+  --amarelo:   #ffff00;
+  --verde:     #008000;
+  --azul:      #0000ff;
+  --indigo:    #4b0082;
+  --violeta:   #ee82ee;
+  --verde-cla: rgba(54, 212, 54, 0.945);
+  --escuro:    #111010;
+}
+
+
+
+    
+/* deixa o site responsivo*/ @media screen {
+  max-width: 1669px;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+
+/* deixa o site responsivo*/ @media screen {
+ max-width: 360px;
+ grid-template-columns: repeat(1, 1fr);
+ padding: 3rem 2rem;
+}
+
+
+
+  #herader{
+    margin:  0px;
+    padding: 0px;
+    font-size: 1.2rem;
+     
+   }
+ 
+ #menu{
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap:nowrap;
+     background-color: #0400ff;
+     background-image:linear-gradient( to right, red,orange, yellow, green,blue, indigo,violet)
+        
+    } 
+ 
+  
+    
+       
+      #menu li{ 
+          padding:40px;
+          display:inline-block
+      
+      }
+      
+       #menu li a{
+          font-family: arial;
+          font-weight: bold;
+          color:#111010;
+          padding:15px;
+          width:30px;
+          text-decoration:none;
+      }
+      
+     #menu :hover{
+         background: #53df29;
+     }
